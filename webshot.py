@@ -27,4 +27,9 @@ with open('names.txt', 'r') as file:
 file.close()        
 driver.quit()
 
+print("\nPlease wait while I develop your film.", end='')
+for i in range(0,5):
+    print('.',end='')
+    sleep(.5)
+sleep(2)
 os.system("ristretto screenshot_*") #show me the pics!
